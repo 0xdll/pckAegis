@@ -1,0 +1,8 @@
+*.exe
+scanner
+aegis
+
+.DS_Store
+Thumbs.db
+
+vendor/

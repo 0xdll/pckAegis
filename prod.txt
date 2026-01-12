@@ -1,0 +1,19 @@
+# 1. Initialiser Git
+git init
+
+# 2. Ajouter les fichiers
+git add .
+
+# 3. Premier commit (le point de départ)
+git commit -m "Initial commit: pckAegis core scanner with JSON export"
+
+# 4. Relier à GitHub (Copie l'URL de ton repo GitHub)
+git remote add origin https://github.com/TON_PSEUDO/pckAegis.git
+
+# 5. Envoyer le code sur la branche principale
+git branch -M main
+git push -u origin main
+
+# 6. Créer le Tag de version v1.0.0 (Le "Release")
+git tag v1.0.0
+git push origin v1.0.0
